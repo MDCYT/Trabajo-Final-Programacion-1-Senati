@@ -1,0 +1,69 @@
+.header {
+    width: 100%;
+}
+
+.header > img {
+    width: 100%;
+}
+
+.info > h2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.newsletter{
+    width: 60%;
+    text-align: center;
+    padding: 20px;
+    background-color: #00093d;
+    margin: auto;
+    margin-bottom: 40px;
+    color: white;
+    border-radius: 40px 40px 40px 40px;
+}
+.newsletter > div > h2 {
+    font-size: 1.5em;
+}
+
+.newsletter-form {
+    width: 100%;
+    margin: auto;
+}
+
+.newsletter-form > input[type=email] {
+    width: 50%;
+    padding: 5px;
+    border-radius: 40px 40px 40px 40px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.newsletter-form > input[type=email]:focus {
+    outline: none;
+}
+
+.newsletter-form > button {
+    width: 20%;
+    padding: 5px;
+    border-radius: 40px 40px 40px 40px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.newsletter-form > button:focus {
+    outline: none;
+}
+
+.newsletter-form > button:hover {
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    transition: 0.5s;
+}

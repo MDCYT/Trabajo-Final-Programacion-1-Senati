@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrarse</title>
+  <link rel="icon" type="image/png" href="../img/logo.png">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="preconnect" href="https://fontawesome.com/">
+  <script src="https://kit.fontawesome.com/68789923df.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+  <nav>
+    <a href="../index.html">
+        <img src="../img/logo.png" alt="logo" class="logo">
+    </a>
+    <ul>
+        <li>
+            <i class="fa-solid fa-car"></i>
+            <a href="../pages/vehicles.html">Vehículos</a>
+        </li>
+        <li>
+            <i class="fa-solid fa-phone"></i>
+            <a href="../pages/contact.html">Contáctenos</a>
+        </li>
+        <li>
+            <i class="fa-regular fa-circle-question"></i>
+            <a href="../pages/questions.html">Preguntas Frecuentes</a>
+        </li>
+        <li>
+            <!-- Explorer -->
+            <div class="contenedor two-columns explorer">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Buscar">
+                </div>
+                <div class="login-button">
+                    <a href="../pages/login.html">Iniciar Sesión</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+</nav>
+  <header>
+    <h1>REGISTRARSE</h1>
+  </header>
+  <form class="formulario" method="">
+    <label class="texto" for="txtcorreo">Nombres:</label>
+    <input class="pregunta" type="text" name="txtnombre" id="txtnombre" placeholder="Juan" maxlength="20" required>
+    <label class="texto" for="txtcorreo">Apellidos:</label>
+    <input class="pregunta" type="text" name="txtapellido" id="txtapellido" placeholder="Ramirez" maxlength="20"
+      required>
+    <label class="texto" for="txtcorreo">Correo:</label>
+    <input class="pregunta" type="email" name="txtcorreo" id="txtcorreo" placeholder="Juan.Ramirez@correo.com"
+      maxlength="50" required>
+    <label class="texto" for="txtcorreo">Contraseña:</label>
+    <input class="pregunta" type="password" name="txtcontraseña" id="txtcontraseña" placeholder="********"
+      maxlength="30" required minlength="8">
+    <label class="texto" for="txtcorreo">Confirmar Contraseña:</label>
+    <input class="pregunta" type="password" name="txtcontraseña" id="txtcontraseña" placeholder="********"
+      maxlength="30" required minlength="8">
+    <button class="boton" type="submit">
+      <i class="fa-solid fa-user-plus"></i>
+      Registrarse
+    </button>
+    <p><a href="login.html">Ya tengo una Cuenta</a></p>
+  </form>
+  <footer class="two-rows">
+    <div>
+        <h3>Síguenos</h3>
+    </div>
+    <div>
+        <div class="three-columns social-medias">
+            <div>
+                <i class="fa-brands fa-facebook-square fa-5x"></i>
+                <a href="#">@Rent_a_car</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-instagram fa-5x"></i>
+                <a href="#">@Rent_a_car</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-twitter-square fa-5x"></i>
+                <a href="#">@Rent_a_car</a>
+            </div>
+        </div>
+
+        <div class="three-columns footer-links">
+            <ul>
+                <li><a href="./pages/tos.html">Términos y Condiciones</a></li>
+                <li><a href="#">Cancelar Alquiler</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+</body>
+
+</html>

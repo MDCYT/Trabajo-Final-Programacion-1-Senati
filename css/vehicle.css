@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+}
+
+.vehicle-type {
+  padding-left: 3%;
+  font-size: 2.5em;
+}
+
+.vehiculos {
+  max-width: 100%;
+  item-align: center;
+  display: flex;
+}
+
+.producto {
+  width: 27vw;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 3%;
+  border: 1px solid #4b8b93;
+  border-radius: 5px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.producto img {
+  max-width: 80%;
+  min-height: 200px;
+}
+
+.producto h2 {
+  color: #4b8b93;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.producto a {
+  text-decoration: none;
+  color: black;
+  padding: 3px 10px;
+  border: PowderBlue 5px solid;
+  border-radius: 20px;
+  background-color: yellow;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.producto a:hover {
+  background-color: #4b8b93;
+  color: white;
+  transition: 0.3s;
+}

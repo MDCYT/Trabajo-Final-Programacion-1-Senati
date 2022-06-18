@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rent a Car</title>
+  <!--Favicon Png-->
+  <link rel="icon" type="image/png" href="../img/logo.png">
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/questions.css">
+  <!-- FontAwesome -->
+  <link rel="preconnect" href="https://kit.fontawesome.com/">
+  <script src="https://kit.fontawesome.com/68789923df.js" crossorigin="anonymous"></script>
+  <!--SweetAlert2-->
+  <script rel="preconnect" href="https://cdn.jsdelivr.net/"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  <!--JQuery-->
+  <script rel="preconnect" href="https://code.jquery.com/"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+  <!--Local JavaScript-->
+  <script src="../js/questions.js" defer></script>
+
+</head>
+
+<body>
+  <nav>
+    <a href="../index.html">
+        <img src="../img/logo.png" alt="logo" class="logo">
+    </a>
+    <ul>
+        <li>
+            <i class="fa-solid fa-car"></i>
+            <a href="../pages/vehicles.html">Vehículos</a>
+        </li>
+        <li>
+            <i class="fa-solid fa-phone"></i>
+            <a href="../pages/contact.html">Contáctenos</a>
+        </li>
+        <li>
+            <i class="fa-regular fa-circle-question"></i>
+            <a href="../pages/questions.html">Preguntas Frecuentes</a>
+        </li>
+        <li>
+            <!-- Explorer -->
+            <div class="contenedor two-columns explorer">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Buscar">
+                </div>
+                <div class="login-button">
+                    <a href="../pages/login.html">Iniciar Sesión</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+</nav>
+  <header>
+    <img src="../img/banner.jpg" alt="banner" class="banner" width="100%">
+  </header>
+  <div>
+    <div class="contenedor p-30 info">
+      <h2 style="color:#00137D; text-align:center">
+        Preguntas Frecuentes
+      </h2>
+      <div class="layout">
+        <div class="accordion">
+          <div class="accordion__question">
+            <p>¿Qué sucede si devuelvo el auto de alquiler con algún daño?</p>
+
+          </div>
+          <div class="accordion__answer">
+            <p>En caso de causar algún daño, deberás abonar el importe total de la reparación hasta el valor de la
+              franquicia.</p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion__question">
+            <p>¿Qúe documentación tengo que presentar al recoger el auto de alquiler?</p>
+          </div>
+
+          <div class="accordion__answer">
+            <p>
+              Para poder retirar tu vehículo de alquiler es necesario que presentes tu Licencia de Conducir virgente,
+              DNI/Pasaporte y Tarjeta de Crédito.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion__question">
+            <p>¿Cómo puede contarte con ustedes?</p>
+          </div>
+
+          <div class="accordion__answer">
+            <p>
+              Para contactar con Rent a Car, por favor vaya a la sección CONTACTENOS de nuestra página web.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion__question">
+            <p>¿Cómo puedo pagar el alquiler?</p>
+          </div>
+
+          <div class="accordion__answer">
+            <p>
+              El pago del alquiler se efectuará a la devolución del vehículo, salvo si se ha efectuado una reserva con
+              tarifa prepago (oferta de pago online). En este caso, el coste del alquiler se cobrará a su tarjeta en el
+              momento de hacer la reserva. Para las reservas no prepago, al inicio del alquiler se solicitará el bloqueo
+              de una cantidad como depósito. El coste del alquiler se pagará a la finalización del mismo. Las formas de
+              pago aceptadas son tarjeta de crédito, tarjetas con cargo a Rent a Car, bonos y efectivo. Esto puede
+              variar dependiendo del tipo de vehículo alquilado.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion__question">
+            <p>
+              ¿Puedo obtener una copia de mi factura?
+            </p>
+          </div>
+
+          <div class="accordion__answer">
+            <p>
+              Puede obtener una copia de su factura al momento de que el personal haga entrega del vehículo a su
+              persona. Para obtener esa información es necesario que facilite su dirección de correo electrónico y
+              apellidos.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion__question">
+            <p>
+              ¿Tengo que devolver el coche con el tanque lleno?
+            </p>
+          </div>
+
+          <div class="accordion__answer">
+            <p>
+              Las reglas a aplicar respecto al repostado del vehículo depende del país de alquiler y del tipo de
+              producto elegido. Por favor, revise detalladamente las reglas aplicables en cada uno de sus alquileres.
+              Normalmente, los coches se entregan con el tanque lleno. A la devolución del coche pueden darse 3
+              situaciones:<br>
+
+              <br>1. Devolver el coche con el mismo nivel de combustible: Rent a Car le entrega el coche con el tanque
+              con un determinado nivel de combustible, que se indica en el Contrato de Alquiler. El coche debe
+              devolverse con idéntico nivel de combustible. En este caso, el cliente no paga nada en concepto de
+              Servicio de Repostado o Combustible. Por favor, tenga en cuenta que Rent a Car puede solicitarle un
+              comprobante de la compra de combustible (ticket de la gasolinera. <br>
+              <br>2. Devolver el coche con un nivel de combustible distinto al indicado al inicio del alquiler (Cargo
+              por Repostado): Si no ha contratado la opción de Compra de Combustible (Full Tank) y el coche no se
+              devuelve con el mismo nivel de combustible que al inicio del alquiler, se cobra el importe del combustible
+              faltante más el Servicio de Repostado.<br>
+              <br>3. Compra de Combustible (Full Tank): A la recogida del vehículo tiene la opción de pagar por el coste
+              del tanque completo de combustible. El precio depende de la categoría del vehículo. En este caso debe
+              devolver el coche con el tanque a cualquier nivel de combustible. Rent a Car no efectuará ningún cargo por
+              combustible, pero tampoco le reembolsará el importe del combustible no utilizado.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion__question">
+            <p>
+              ¿Qué ocurre en caso de conflicto respecto a mi alquiler?
+            </p>
+          </div>
+
+          <div class="accordion__answer">
+            <p>
+              Sea cual sea, el lugar donde realice su alquiler, puede contactar con el departamento de Atención al
+              cliente de su país de residencia, que se pondrá en contacto con el departamento de Atención al Cliente del
+              país donde tuvo lugar el alquiler e intentará resolver su reclamación. Pueden contactar con el servicio de
+              Atención al Cliente Rent a Car directamente a través de la sección "Contactenos" de nuestra página web.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="two-rows">
+      <div>
+          <h3>Síguenos</h3>
+      </div>
+      <div>
+          <div class="three-columns social-medias">
+              <div>
+                  <i class="fa-brands fa-facebook-square fa-5x"></i>
+                  <a href="#">@Rent_a_car</a>
+              </div>
+              <div>
+                  <i class="fa-brands fa-instagram fa-5x"></i>
+                  <a href="#">@Rent_a_car</a>
+              </div>
+              <div>
+                  <i class="fa-brands fa-twitter-square fa-5x"></i>
+                  <a href="#">@Rent_a_car</a>
+              </div>
+          </div>
+
+          <div class="three-columns footer-links">
+              <ul>
+                  <li><a href="./pages/tos.html">Términos y Condiciones</a></li>
+                  <li><a href="#">Cancelar Alquiler</a></li>
+                  <li><a href="#">Ayuda</a></li>
+              </ul>
+          </div>
+      </div>
+
+  </footer>
+</body>

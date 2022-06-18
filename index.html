@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent a Car</title>
+    <!--Favicon Png-->
+    <link rel="icon" type="image/png" href="./img/logo.png">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- FontAwesome -->
+    <link rel="preconnect" href="https://kit.fontawesome.com/">
+    <script src="https://kit.fontawesome.com/68789923df.js" crossorigin="anonymous"></script>
+    <!--SweetAlert2-->
+    <script rel="preconnect" href="https://cdn.jsdelivr.net/"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <!--JQuery-->
+    <script rel="preconnect" href="https://code.jquery.com/"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <!--Local JavaScript-->
+    <script src="./js/index.js" defer></script>
+
+</head>
+
+<body>
+    <nav>
+        <a href="./index.html">
+            <img src="./img/logo.png" alt="logo" class="logo">
+        </a>
+        <ul>
+            <li>
+                <i class="fa-solid fa-car"></i>
+                <a href="./pages/vehicles.html">Vehículos</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-phone"></i>
+                <a href="./pages/contact.html">Contáctenos</a>
+            </li>
+            <li>
+                <i class="fa-regular fa-circle-question"></i>
+                <a href="./pages/questions.html">Preguntas Frecuentes</a>
+            </li>
+            <li>
+                <!-- Explorer -->
+                <div class="contenedor two-columns explorer">
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Buscar">
+                    </div>
+                    <div class="login-button">
+                        <a href="./pages/login.html">Iniciar Sesión</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <img src="./img/header.png" alt="header" class="header">
+    </header>
+    <div class="contenedor p-30 info">
+        <h2>Te brindamos:</h2>
+        <div class="two-columns p-20">
+            <div class="two-rows p-20">
+                <div>
+                    <h3 class="red-text text-1.6">Alquiler flexible</h3>
+                    <p class="bold-text">
+                        La reservas se pueden cancelar o cambiar de vehiculo gratis hasta 48hrs despues de la entrega
+                        del vehículo.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="red-text text-1.6">Vehículos limpios</h3>
+                    <p class="bold-text">
+                        Todos nuestros automóviles cumplen con los protocolos de limpieza y desinfección antes de ser
+                        entregados
+                    </p>
+                </div>
+            </div>
+            <div class="two-rows p-20">
+                <div>
+                    <h3 class="red-text text-1.6">Sin cargos ocultos</h3>
+                    <p class="bold-text">
+                        No hay cargos ocultos, siempre sabras que y cuanto pagas por tu alquiler.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="red-text text-1.6">Igualamos el precio</h3>
+                    <p class="bold-text">
+                        Si viste alguna oferta igual en otro sitio, te ofrecemos el mismo precio.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contenedor">
+        <div class="newsletter">
+            <i class="fa-solid fa-envelope-open-text fa-5x"></i>
+            <div class="contenedor">
+                <h2>¡Suscríbete para recibir nuestras ofertas!</h2>
+                <form action="" class="newsletter-form" id="newsletter-form">
+                    <input type="email" placeholder="Correo Electronico" id="email">
+                    <button type="submit">Suscribirme</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="two-rows">
+        <div>
+            <h3>Síguenos</h3>
+        </div>
+        <div>
+            <div class="three-columns social-medias">
+                <div>
+                    <i class="fa-brands fa-facebook-square fa-5x"></i>
+                    <a href="#">@Rent_a_car</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-instagram fa-5x"></i>
+                    <a href="#">@Rent_a_car</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-twitter-square fa-5x"></i>
+                    <a href="#">@Rent_a_car</a>
+                </div>
+            </div>
+
+            <div class="three-columns footer-links">
+                <ul>
+                    <li><a href="./pages/tos.html">Términos y Condiciones</a></li>
+                    <li><a href="#">Cancelar Alquiler</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

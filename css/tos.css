@@ -1,0 +1,28 @@
+.condiciones {
+    width: 100%;
+}
+
+.condiciones > img {
+    width: 100%;
+}
+
+.texto1 {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin: 4rem auto;
+    text-align: justify;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Helvetica;
+
+}
+
+.texto2{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin: 2rem auto;
+    text-align: justify;
+    font-size: 30px;
+    font-family: Helvetica;
+}

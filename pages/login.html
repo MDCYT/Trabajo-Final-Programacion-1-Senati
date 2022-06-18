@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesion</title>
+  <link rel="icon" type="image/png" href="../img/logo.png">
+  <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="preconnect" href="https://fontawesome.com/">
+  <script src="https://kit.fontawesome.com/68789923df.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav>
+    <a href="../index.html">
+      <img src="../img/logo.png" alt="logo" class="logo">
+    </a>
+    <ul>
+      <li>
+        <i class="fa-solid fa-car"></i>
+        <a href="../pages/vehicles.html">Vehículos</a>
+      </li>
+      <li>
+        <i class="fa-solid fa-phone"></i>
+        <a href="../pages/contact.html">Contáctenos</a>
+      </li>
+      <li>
+        <i class="fa-regular fa-circle-question"></i>
+        <a href="../pages/questions.html">Preguntas Frecuentes</a>
+      </li>
+      <li>
+        <!-- Explorer -->
+        <div class="contenedor two-columns explorer">
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Buscar">
+          </div>
+          <div class="login-button">
+            <a href="../pages/login.html">Iniciar Sesión</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <section class="sesion">
+    <header>
+      <h1>Iniciar Sesión</h1>
+    </header>
+    <form class="login" id="login" method="">
+      <label class="texto" for="txtcorreo">Correo:</label>
+      <input class="pregunta" type="email" name="txtcorreo" id="txtcorreo" placeholder="Escriba su correo"
+        maxlength="50" required>
+      <label class="texto" for="txtcontraseña">Contraseña:</label>
+      <input class="pregunta" type="password" name="txtcontraseña" id="txtcontraseña"
+        placeholder="Escriba su Contraseña" maxlength="30" required>
+      <br>
+      <button class="boton" type="submit">
+        <i class="fa-solid fa-sign-in-alt"></i>
+        Iniciar Sesión</button>
+
+      </button>
+    </form>
+    <div class="center">
+      <div>
+        <a href="register.html">¿No tienes una cuenta?</a>
+      </div>
+      <div>
+        <a href="#">¿Olvidaste tu contraseña?</a>
+      </div>
+    </div>
+  </section>
+  <footer class="two-rows">
+    <div>
+        <h3>Síguenos</h3>
+    </div>
+    <div>
+        <div class="three-columns social-medias">
+            <div>
+                <i class="fa-brands fa-facebook-square fa-5x"></i>
+                <a href="#">@Rent_a_car</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-instagram fa-5x"></i>
+                <a href="#">@Rent_a_car</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-twitter-square fa-5x"></i>
+                <a href="#">@Rent_a_car</a>
+            </div>
+        </div>
+
+        <div class="three-columns footer-links">
+            <ul>
+                <li><a href="./pages/tos.html">Términos y Condiciones</a></li>
+                <li><a href="#">Cancelar Alquiler</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+</body>
+
+</html>
